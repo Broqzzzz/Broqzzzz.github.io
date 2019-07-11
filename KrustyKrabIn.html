@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>
+            The Krusty Krab
+        </title>
+        
+        <!-- SCRIPTS AND STYLES -->
+        <link href = "KrustyKrabIn.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+        <script src="jQuery.js"></script>
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/export-data.js"></script>
+        <script src= "KrustyKrabIn.js"></script>
+        
+        
+    </head>
+    
+    <body>
+        <div class="container_All">
+            <div class="contain_Header">
+                <div class="KrustyKrabSign"></div>
+                <div class="container_buttons">
+                    <i class="sprite bg-home" id="home"></i>
+                    <i class="sprite bg-sales" id="sales"></i>
+                    <i class="sprite bg-charts" id="charts"></i>
+                    <i class="sprite bg-logout" id="logout"></i>
+                </div>
+            </div>
+            <div class="contain_body">
+                <div class="contain_Home"></div>
+                <div class ="contain_Sales">
+                    <table id="table_Sales">
+                        <thead>
+                            <th style = "background-color: white">Date/Time</th>
+                            <th style = "background-color: white">Burger</th>
+                            <th style = "background-color: white">Species</th>
+                        </thead>
+                        <tbody> 
+                        </tbody>
+                        <input type="file" id="upload">
+                    </table>
+                </div>
+                <div class = "contain_Charts">
+                    <form id = "chart_Stat_Options">
+                        <select id = "chart_Stat_Options_dropdown">
+                            <option id="burger_sales" value="S1">Burger Sales</option>
+                            <option id="species_sales" value="S2">Species Sales</option>
+                            <option id="burger_by_species" value="S3">Burger by Species</option>
+                        </select>
+                    </form>
+                    <div id = "chart">
+                        <div id="burger_Sales" style="min-width: 310px; height: 550px; margin: auto"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

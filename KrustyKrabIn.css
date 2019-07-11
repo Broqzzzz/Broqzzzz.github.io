@@ -1,0 +1,148 @@
+.container_All{
+    width: 100%;
+    background-image: url(homepage.png);
+    padding: 10px;
+    font-family: helvetica;
+    cursor : url(spatula.png), auto;
+    
+}
+
+.contain_Header{
+    position: relative;
+    width: 80%
+    margin: 40px;
+}
+
+.contain_Body{
+    width: 100%;
+    height: 100%;
+}
+
+.paginate_button{
+    background-color: white;
+}
+
+.container_Buttons{
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    bottom: 75px;
+}
+
+.contain_Sales{
+    text-align: left;
+    width: 1250px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    font-family: helvetica;
+}
+
+
+.KrustyKrabSign{ 
+    width: 200px;
+    height: 200px;
+    background: url(KKLogo.png), 0,0;
+    background-position: left;
+    display: inline-block;
+    background-size: 100%;
+}
+
+.sprite{
+    display: inline-block;
+    width: 140px;
+    height: 75px;
+}
+
+.bg-home{
+    background: url(css_sprites.png) -2px -30px;
+    background-size: 413%;
+}
+
+.bg-home:hover{
+    background: url(css_sprites.png) -148px -30px;
+    background-size: 413%;
+}
+
+ .bg-sales{
+    background: url('css_sprites.png') -294px -110px;
+    background-size: 413%;
+    position: relative;
+    left: 3%;
+}
+
+.bg-sales:hover{
+    background: url('css_sprites.png') -148px -110px;
+    background-size: 413%;
+    position: relative;
+    left: 3%;
+}
+
+.bg-charts{
+    background: url('charts_button.png') -278px -3px;
+    position: relative;
+    left: 6%;
+    background-size: 100%;
+}
+
+.bg-charts:hover{
+    background: url('charts_hover.png') -278px -3px;
+    position: relative;
+    left: 6%;
+    background-size: 100%;
+}
+
+
+.bg-logout{
+    background: url('css_sprites.png') -294px -30px;
+    background-size: 413%;
+    position: relative;
+    left: 50%;
+}
+
+.bg-logout:hover {
+    background: url('css_sprites.png') -2px -110px;
+    background-size: 413%;
+    position: relative;
+    left: 50%;
+}
+
+#chart{
+    text-align: left;
+    width: 1250px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    background-color: whitesmoke;
+}
+
+#chart_Stat_Options{
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+
+#table_Sales_length{
+    position: relative;
+    bottom: 20px;
+}
+
+#table_Sales_filter{
+    position: relative;
+    bottom: 20px;
+}
+
+#upload{
+    font-family:  helvetica;
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-bottom-style: groove;
+    border-bottom-width: 3px;
+    background-color: white;
+    position: relative;
+    left: 175px;
+}
+           
